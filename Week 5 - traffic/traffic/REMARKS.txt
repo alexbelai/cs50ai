@@ -1,0 +1,15 @@
+- BEST PERFORMING: 2 Layers of Conv2D + MaxPool
+	- Adding 3rd layer reduced accuracy
+	- Number of filters in convolution matters (64 produced good results)
+
+- Dropout not worth without large amount of previous layers
+	- If set isn't already overtrained, just reduces accuracy
+
+- Adding extra hidden Dense layer can help increase accuracy
+
+- Settings mostly change three things:
+	- Rate of growth over epochs
+	- Maximum achieveable accuracy
+	- Overtraining amount
+
+- Larger amount of epochs possibly better with dropout implemented
